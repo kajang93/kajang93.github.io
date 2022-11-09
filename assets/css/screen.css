@@ -144,6 +144,12 @@ table { border-collapse: collapse; border-spacing: 0; }
 .icon-google-plus:before {
     content: "\f603";
 }
+.icon-youtube-play:before {
+    content: "\f603";
+}
+.icon-star:before {
+    content: "\f603";
+}
 .icon-facebook:before {
     content: "\f604";
 }
