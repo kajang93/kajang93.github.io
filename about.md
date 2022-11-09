@@ -1,6 +1,12 @@
 ---
 layout: page
-title: About me 
+title: Im Kyung Ah.
 ---
 
-This is a static page. It could be an 'about page' if you'd like.
+HTML5
+CSS3
+Javascript
+Swift/IOS
+.
+.
+인공지능, 딥러닝 공부를 하고 있습니다.
