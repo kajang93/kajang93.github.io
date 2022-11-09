@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "바뀜"
+title:  "Welcome to Site!"
 date:   2013-11-10 10:18:00
-categories: Thriller Comedy Horror
+categories: Comment
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
@@ -17,7 +17,6 @@ end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
-
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
 [jekyll-gh]: https://github.com/mojombo/jekyll
