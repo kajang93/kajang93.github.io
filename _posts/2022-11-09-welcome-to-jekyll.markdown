@@ -5,6 +5,10 @@ date:   2022-11-09 11:10:00
 categories: JAVASCRIP
 ---
 
+
+
+
+
 구글링해도 안나오길래..
 
 기존 `red, yellow, green`을 쿠키에 넣고
