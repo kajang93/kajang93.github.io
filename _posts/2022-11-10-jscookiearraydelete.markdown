@@ -5,10 +5,7 @@ date:   2022-11-10 11:00:00
 categories: Javascript
 ---
 
-구글링해도 안나오길래..
-기존 red, yellow, green을 쿠키에 넣고
-필요할때마다 쿠키를 가져와서 단어가 있으면 원하는 행동 호출하고
-이런 식이였어요. 참고부탁드려요~!
+
 
 
 {% highlight javascript %}
