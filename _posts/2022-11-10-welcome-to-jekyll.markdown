@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Welcome to Site!"
+title:  "JS 쿠키에서 원하는 값을 배열에서 제거"
 date:   2013-11-10 10:18:00
-categories: Comment
+categories: JAVASCRIP
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
