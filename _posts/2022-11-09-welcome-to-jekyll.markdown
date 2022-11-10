@@ -38,12 +38,18 @@ var aList = [];
 setCookie("cookie 컬럼명", aList, 365);
 
 
-//setCookie 함수
+//쿠키 저장 함수
 function setCookie(name, value, exp) {
     var date = new Date();
     //오늘 날짜부터 365일 추가한 날짜까지 cookie 저장
     date.setTime(date.getTime() + exp * 24 * 60 * 60 * 1000);
     document.cookie = name + '=' + value + ';expires=' + date.toUTCString() + ';path=/';
+}
+
+//쿠키 가져오기
+function getCookie(name) {
+    var value = document.cookie.match('(^|;) ?' + name + '=([^;]*)(;|$)');
+    return value ? value[2] : null;
 }
 
 
