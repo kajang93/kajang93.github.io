@@ -1,11 +1,9 @@
 ---
 layout: post
 title:  "JS 쿠키, 원하는 값을 배열에서 제거"
-date:   2022-11-09 13:29:00
+date:   2022-11-09 13:29:00 {{page.last_modified_at | date: '%Y, %b %d'}}
 categories: Javascript
 ---
-
-<div class="page-date"><span>{{page.last_modified_at | date: '%Y, %b %d'}}&nbsp;&nbsp;&nbsp;&nbsp;</span></div>
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
 To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
