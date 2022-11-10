@@ -5,10 +5,14 @@ date:   2022-11-09 11:10:00
 categories: JAVASCRIP
 ---
 
-You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
-To add new posts, simply add a file in the `_posts` directory that follows the convention: YYYY-MM-DD-name-of-post.ext.
+구글링해도 안나오길래..
 
-Jekyll also offers powerful support for code snippets:
+기존 red, yellow, green을 쿠키에 넣고
+
+필요할때마다 쿠키를 가져와서 단어가 있으면 원하는 행동 호출하고
+
+이런 식이였어요. 참고부탁드려요~!
+
 
 {% highlight javascript %}
 //기존에 있는 쿠키를 가져옴
@@ -32,8 +36,15 @@ var aList = [];
     }
 //제거 후 남은 배열 setCookie 인자 전달
 setCookie("cookie 컬럼명", aList, 365);
-{% endhighlight %}
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
-[jekyll-gh]: https://github.com/mojombo/jekyll
-[jekyll]:    http://jekyllrb.com
+
+//setCookie 함수
+function setCookie(name, value, exp) {
+    var date = new Date();
+    //오늘 날짜부터 365일 추가한 날짜까지 cookie 저장
+    date.setTime(date.getTime() + exp * 24 * 60 * 60 * 1000);
+    document.cookie = name + '=' + value + ';expires=' + date.toUTCString() + ';path=/';
+}
+
+
+{% endhighlight %}
