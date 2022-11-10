@@ -332,7 +332,7 @@ mark {
 
 code, tt {
     padding: 1px 3px;
-    font-family: Inconsolata, monospace, sans-serif;
+    font-family: Fira Code, MonoLisa, Input Mono;
     font-size: 0.85em;
     white-space: pre-wrap;
     border: #E3EDF3 1px solid;
@@ -347,8 +347,8 @@ pre {
     border: #E3EDF3 1px solid;
     width: 100%;
     padding: 10px;
-    font-family: Inconsolata, monospace, sans-serif;
-    font-size: 0.9em;
+    font-family: Fira Code, MonoLisa, Input Mono;
+    font-size: 14px;
     white-space: pre;
     overflow: auto;
     background: #F7FAFB;
