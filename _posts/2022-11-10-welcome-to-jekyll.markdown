@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "JS 쿠키에서 원하는 값을 배열에서 제거"
-date:   2022-11-10 11:10:00
+date:   2022-11-09 11:10:00
 categories: JAVASCRIP
 ---
 
