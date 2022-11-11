@@ -308,6 +308,8 @@ blockquote {
 
 blockquote p {
     margin: 0.8em 0;
+    FONT-SIZE: 11px;
+    font-family: 'Open Sans';
     font-style: italic;
 }
 
