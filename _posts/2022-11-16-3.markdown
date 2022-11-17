@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "SWIFT 하이브리드앱 reload 캐시 방지"
+date:   2022-11-16 15:08:00
+categories: IOS/swift
+---
+
+> 밑으로 당겨 새로고침 시 웹 캐시 삭제
+
+{% hifhlight swift %}
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+        //scroll reload
+        let refreshControl = UIRefreshControl()
+        refreshControl.addTarget(self, action: #selector(reloadWebView(_:)), for: .valueChanged)
+
+    }
+    
+    @objc func reloadWebView(_ sender: UIRefreshControl) {
+        webView.reload()
+        sender.endRefreshing()
+        
+        //웹 캐시 삭제
+        let websiteDataTypes = NSSet(array: [WKWebsiteDataTypeDiskCache, WKWebsiteDataTypeMemoryCache])
+        let date = Date(timeIntervalSince1970: 0)
+        WKWebsiteDataStore.default().removeData(ofTypes: websiteDataTypes as! Set<String>, modifiedSince: date, completionHandler:{ })
+    }
+    
+{% endhifhlight %}
+
